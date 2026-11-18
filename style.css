@@ -1,0 +1,127 @@
+/* =================================
+   PORTFOLIO STYLING
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #f6f7fb;
+    color: #252638;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #6658e8, #8a7ff9);
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+section {
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ececf2;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+section h2 {
+    font-size: 20px;
+    color: #6658e8;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+section p {
+    font-size: 15px;
+    color: #555770;
+}
+
+button {
+    background-color: #6658e8;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin: 30px auto;
+}
+
+button:hover {
+    background-color: #5143d0;
+    transform: translateY(-2px);
+}
+
+/* =================================
+   FEATURE STYLES (Navbar & Footer)
+================================= */
+
+nav {
+    background: #ffffff;
+    padding: 15px 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    border: 1px solid #ececf2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+nav .logo {
+    font-weight: 800;
+    color: #6658e8;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #252638;
+    font-weight: 600;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover {
+    color: #6658e8;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #85879a;
+    font-size: 13px;
+    border-top: 1px solid #ececf2;
+}
